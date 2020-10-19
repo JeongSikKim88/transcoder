@@ -1,0 +1,138 @@
+{
+  "JobID": 1,
+  "TemplateName": "3Pro_thu_cb",
+  "CustomerID": 4,
+  "CustomerName": "ATLAS",
+  "CreatorID": 199,
+  "CreatorName": "atlas_ysy",
+  "Transcodings": [
+    {
+      "Output": "$input_c1",
+      "OverlayImage": "JTBC_LOGO.jpg",
+      "OverlayPosition": "Right TOP",
+      "PresetName": "C1"
+    },
+    {
+      "Output": "$input_hq",
+      "OverlayImage": "JTBC_LOGO.jpg",
+      "OverlayPosition": "Right TOP",
+      "PresetName": "HQ"
+    },
+    {
+      "Output": "$input_mq",
+      "OverlayImage": "JTBC_LOGO.jpg",
+      "OverlayPosition": "Right TOP",
+      "PresetName": "MQ"
+    }
+  ],
+  "DefaultThumbnail": {
+    "Output": "$input_normal_01.jpg",
+    "ThumNum": "3",
+    "ThumPath": ""
+  },
+  "GridThumbnail": {},
+  "Callback": {
+    "Mode": "Callback",
+    "Parameter": ["Contents_id", "Size"],
+    "TaskName": "Callback",
+    "TaskNo": "5"
+  },
+  "Presets": [
+    {
+      "PresetID": 1,
+      "PresetName": "C1",
+      "CustomerID": 4,
+      "CustomerName": "ATLAS",
+      "CreatorID": 199,
+      "CreatorName": "atlas_ysy",
+      "Video": {
+        "Bframe": "2",
+        "Bitrate": "3.8M",
+        "Codec": "h264",
+        "Deinterlacing": "29.97i",
+        "FrameRate": "29.97",
+        "GOP": "",
+        "Height": "1080",
+        "IFrame": "29.97",
+        "Interlacing": "",
+        "Pass": "2",
+        "PixelAspect": "ON",
+        "Profile": "high",
+        "RateControl": "CBR",
+        "Width": "1920",
+        "level": "4.1"
+      },
+      "Audio": {
+        "Bitrate": "",
+        "BitrateControl": "",
+        "Codec": "AAC",
+        "Profile": "hev1",
+        "Sample": ""
+      }
+    },
+    {
+      "PresetID": 2,
+      "PresetName": "HQ",
+      "CustomerID": 4,
+      "CustomerName": "ATLAS",
+      "CreatorID": 199,
+      "CreatorName": "atlas_ysy",
+      "Video": {
+        "Bframe": "2",
+        "Bitrate": "2.5M",
+        "Codec": "h264",
+        "Deinterlacing": "29.97i",
+        "FrameRate": "29.97",
+        "GOP": "",
+        "Height": "720",
+        "IFrame": "29.97",
+        "Interlacing": "",
+        "Pass": "2",
+        "PixelAspect": "ON",
+        "Profile": "high",
+        "RateControl": "CBR",
+        "Width": "1280",
+        "level": "4.1"
+      },
+      "Audio": {
+        "Bitrate": "",
+        "BitrateControl": "",
+        "Codec": "AAC",
+        "Profile": "hev1",
+        "Sample": ""
+      }
+    },
+    {
+      "PresetID": 3,
+      "PresetName": "MQ",
+      "CustomerID": 4,
+      "CustomerName": "ATLAS",
+      "CreatorID": 199,
+      "CreatorName": "atlas_ysy",
+      "Video": {
+        "Bframe": "2",
+        "Bitrate": "2.5M",
+        "Codec": "h264",
+        "Deinterlacing": "29.97i",
+        "FrameRate": "29.97",
+        "GOP": "",
+        "Height": "1080",
+        "IFrame": "29.97",
+        "Interlacing": "",
+        "Pass": "2",
+        "PixelAspect": "ON",
+        "Profile": "baseline",
+        "RateControl": "CBR",
+        "Width": "1920",
+        "level": "3.1"
+      },
+      "Audio": {
+        "Bitrate": "",
+        "BitrateControl": "",
+        "Codec": "AAC",
+        "Profile": "hev1",
+        "Sample": ""
+      }
+    }
+  ]
+}

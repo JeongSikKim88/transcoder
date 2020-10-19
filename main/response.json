@@ -1,0 +1,92 @@
+{
+  "response": {
+    "status": 0,
+    "convertCount": "7",
+    "originSeq": 202007011341201,
+    "runTime": "0:00:37",
+    "FileName": "58939391_06_1.mp4",
+    "FileSize": "20551803",
+    "orgMetadata": {},
+    "md5": "8c88cb3acc34f649036e03aa992d9df9",
+    "convertDataList": [
+      {
+        "fileSize": "7746948",
+        "runTime": "0:00:37",
+        "status": 0,
+        "filePath": "http://video.11st.co.kr/11stvod/_definst_/movie/item/www/mp4:58939391_06_1_QA.mp4",
+        "thumbnailPath": "http://snsvideo.11st.co.kr/thb/movie/item/www/58939391_06_1.jpg",
+        "cntinfo": "resolution=960x960^fps=27.97^codec_id=libx264^bitrate=1500000^audid=aac",
+        "md5": "bd7c3cfab4ce4d4270af4865e5db194b",
+        "presetName": "QA"
+      },
+      {
+        "originSeq": 202007011341201,
+        "runTime": "0:00:37",
+        "fileSize": "10103560",
+        "status": 0,
+        "filePath": "http://video.11st.co.kr/11stvod/_definst_/movie/item/www/mp4:58939391_06_1_HQ.mp4",
+        "thumbnailPath": "http://snsvideo.11st.co.kr/thb/movie/item/www/58939391_06_1.jpg",
+        "cntinfo": "resolution=1280x1280^fps=29.97^codec_id=libx264^bitrate=2000000^audid=aac",
+        "md5": "310fcaaf1cf5435cffda3be62553d946",
+        "presetName": "HQ"
+      },
+      {
+        "originSeq": 202007011341201,
+        "runTime": "0:00:37",
+        "fileSize": "7746948",
+        "status": 0,
+        "filePath": "http://video.11st.co.kr/11stvod/_definst_/movie/item/www/mp4:58939391_06_1_MQ.mp4",
+        "thumbnailPath": "http://snsvideo.11st.co.kr/thb/movie/item/www/58939391_06_1.jpg",
+        "cntinfo": "resolution=960x960^fps=27.97^codec_id=libx264^bitrate=1500000^audid=aac",
+        "md5": "bd7c3cfab4ce4d4270af4865e5db194b",
+        "presetName": "MQ"
+      },
+      {
+        "originSeq": 202007011341201,
+        "runTime": "0:00:37",
+        "fileSize": "7746948",
+        "status": 0,
+        "filePath": "http://video.11st.co.kr/11stvod/_definst_/movie/item/www/mp4:58939391_06_1_LQ.mp4",
+        "thumbnailPath": "http://snsvideo.11st.co.kr/thb/movie/item/www/58939391_06_1.jpg",
+        "cntinfo": "resolution=960x960^fps=27.97^codec_id=libx264^bitrate=1500000^audid=aac",
+        "md5": "bd7c3cfab4ce4d4270af4865e5db194b",
+        "presetName": "LQ"
+      },
+      {
+        "originSeq": 202007011341201,
+        "runTime": "0:00:37",
+        "fileSize": "14473026",
+        "status": 0,
+        "filePath": "http://video.11st.co.kr/11stvod/_definst_/movie/item/www/mp4:58939391_06_1_C1.mp4",
+        "thumbnailPath": "http://snsvideo.11st.co.kr/thb/movie/item/www/58939391_06_1.jpg",
+        "cntinfo": "resolution=1280x1280^fps=29.97^codec_id=libx264^bitrate=3000000^audid=aac",
+        "md5": "dec4f1f04d25b023a08c77a19a535dbf",
+        "convertoptName": "C1"
+      },
+      {
+        "originSeq": 202007011341201,
+        "runTime": "0:00:37",
+        "fileSize": "7746948",
+        "status": 0,
+        "filePath": "http://video.11st.co.kr/11stvod/_definst_/movie/item/www/mp4:58939391_06_1_C2.mp4",
+        "thumbnailPath": "http://snsvideo.11st.co.kr/thb/movie/item/www/58939391_06_1.jpg",
+        "cntinfo": "resolution=960x960^fps=27.97^codec_id=libx264^bitrate=1500000^audid=aac",
+        "md5": "bd7c3cfab4ce4d4270af4865e5db194b",
+        "convertoptName": "C2"
+      },
+      {
+        "originSeq": 202007011341201,
+        "runTime": "0:00:37",
+        "fileSize": "7746948",
+        "status": 0,
+        "filePath": "http://video.11st.co.kr/11stvod/_definst_/movie/item/www/mp4:58939391_06_1_C3.mp4",
+        "thumbnailPath": "http://snsvideo.11st.co.kr/thb/movie/item/www/58939391_06_1.jpg",
+        "cntinfo": "resolution=960x960^fps=27.97^codec_id=libx264^bitrate=1500000^audid=aac",
+        "md5": "bd7c3cfab4ce4d4270af4865e5db194b",
+        "convertoptName": "C3"
+      }
+    ],
+    "rtMsg": "OK",
+    "rt": "100"
+  }
+}

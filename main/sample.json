@@ -1,0 +1,131 @@
+{
+  "JobID": 152,
+  "TemplateID": 1,
+  "TemplateName": "3Pro_thu_cb",
+  "CustomerID": 103,
+  "CustomerName": "우리은행",
+  "CreatorID": 350,
+  "CreatorName": "wooribank_test",
+  "UploaderID": 350,
+  "Uploader": "wooribank_test",
+  "FilePath": "/home/woori/test/sample.mp4",
+  "FileName": "sample.mp4",
+  "FileSize": 15316589,
+  "Duration": "29.066857",
+  "UploadIP": "211.110.226.92",
+  "ResultIP": "211.110.226.91",
+  "Status": "",
+  "Msg": "",
+  "TranscodingStartDate": "",
+  "TranscodingEndDate": "",
+  "Transcodings": [
+    {
+      "Output": "sample_1080p.mp4",
+      "PresetName": "1080p"
+    },
+    {
+      "Output": "sample_720p.mp4",
+      "PresetName": "720p"
+    },
+    {
+      "Output": "sample_480p.mp4",
+      "PresetName": "480p"
+    }
+  ],
+  "DefaultThumbNail": {},
+  "GridThumbNail": {},
+  "Callback": {
+    "AudioCodec": "",
+    "FPS": "",
+    "FilePath": "",
+    "Height": "",
+    "JobID": "",
+    "MD5": "",
+    "Message": "",
+    "Progressing": "",
+    "Runtime": "",
+    "Size": "",
+    "ThumbnailPath": "",
+    "UploadFileName": "",
+    "VideoBitrate": "",
+    "VideoCodec": "",
+    "Width": ""
+  },
+  "Presets": [
+    {
+      "PresetID": 1,
+      "PresetName": "1080p",
+      "CustomerID": 103,
+      "CustomerName": "우리은행",
+      "CreatorID": 350,
+      "CreatorName": "wooribank_test",
+      "Video": {
+        "Bitrate": "5M",
+        "Codec": "h264",
+        "Crf": "22",
+        "Format": "mp4",
+        "FrameRate": "29.97",
+        "Height": "1080",
+        "Profile": "high",
+        "Width": "1920",
+        "level": "4.1"
+      },
+      "Audio": {
+        "Bitrate": "128k",
+        "Sample": "",
+        "codec": "AAC",
+        "profile": "hev1"
+      }
+    },
+    {
+      "PresetID": 2,
+      "PresetName": "720p",
+      "CustomerID": 103,
+      "CustomerName": "우리은행",
+      "CreatorID": 350,
+      "CreatorName": "wooribank_test",
+      "Video": {
+        "Bitrate": "5M",
+        "Codec": "h264",
+        "Crf": "22",
+        "Format": "mp4",
+        "FrameRate": "29.97",
+        "Height": "720",
+        "Profile": "high",
+        "Width": "1280",
+        "level": "4.1"
+      },
+      "Audio": {
+        "Bitrate": "128k",
+        "Sample": "",
+        "codec": "AAC",
+        "profile": "hev1"
+      }
+    },
+    {
+      "PresetID": 3,
+      "PresetName": "480p",
+      "CustomerID": 103,
+      "CustomerName": "우리은행",
+      "CreatorID": 350,
+      "CreatorName": "wooribank_test",
+      "Video": {
+        "Bitrate": "5M",
+        "Codec": "h264",
+        "Crf": "22",
+        "Format": "mp4",
+        "FrameRate": "29.97",
+        "Height": "480",
+        "Profile": "baseline",
+        "Width": "720",
+        "level": "3.1"
+      },
+      "Audio": {
+        "Bitrate": "128k",
+        "Sample": "",
+        "codec": "AAC",
+        "profile": "hev1"
+      }
+    }
+  ]
+}
